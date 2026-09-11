@@ -218,6 +218,8 @@ layer_0/tile_data = PackedInt32Array(-196606, 0, 0, -262141, 0, 0, -262140, 0, 0
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1598666565]
 position = Vector2(0, -5)
 zoom = Vector2(4, 4)
+limit_bottom = 120
+limit_smoothed = true
 position_smoothing_enabled = true
 
 [node name="Platform" parent="." unique_id=168687358 instance=ExtResource("3_lnu2h")]
